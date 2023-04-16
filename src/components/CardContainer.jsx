@@ -1,44 +1,18 @@
 import React from 'react'
 import Card from "./Card"
-import img1 from "../assets/car-rental-full.c58b37da333d73238fdd.webp"
+import img1 from "../assets/weather-React-App.png"
+
 
 let data = [
   {
-    name: 'Car Rental  🚗',
-    desc: 'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.',
-    tech: ['react', 'nodejs', 'mongodb'],
-    github: '',
-    demo: '',
+    name: 'Weather App',
+    desc: 'A weather app is a online platform that allow user to track the weather report. The web app provide interface for searching, Auto location and detailed view for weather of a particular place',
+    tech: ['react', 'OpenWeatherMap API '],
+    github: 'https://github.com/shanks2305/weather-app',
+    demo: 'https://shanks-weather-app.netlify.app/',
     img: img1,
     alignLeft: true
   },
-  {
-    name: 'Car Rental 1 🚗',
-    desc: 'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.',
-    tech: ['react', 'nodejs', 'mongodb'],
-    github: '',
-    demo: '',
-    img: img1,
-    alignLeft: false
-  },
-  {
-    name: 'Car Rental 2 🚗',
-    desc: 'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.',
-    tech: ['react', 'nodejs', 'mongodb'],
-    github: '',
-    demo: '',
-    img: img1,
-    alignLeft: true
-  },
-  {
-    name: 'Car Rental 3 🚗',
-    desc: 'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.',
-    tech: ['react', 'nodejs', 'mongodb'],
-    github: '',
-    demo: '',
-    img: img1,
-    alignLeft: false
-  }
 ]
 
 const CardContainer = () => {

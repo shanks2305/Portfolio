@@ -31,7 +31,7 @@ const Info = ({ info }) => (
     <div className='my-8 flex flex-wrap gap-6'  >
       {
         info.tech.map(i => (
-          <div className='py-2 px-6 rounded-lg shadow-lg' key={i} >{i}</div>
+          <div className='py-2 px-6 rounded-lg shadow-lg capitalize' key={i} >{i}</div>
         ))
       }
     </div>
