@@ -40,7 +40,7 @@ const Info = ({ info }) => (
         Code
         <AiFillGithub size={30} />
       </a>
-      <a href={info.github} target='_blank' className='hover:text-blue-600 flex gap-1 items-center text-lg font-bold' >
+      <a href={info.demo} target='_blank' className='hover:text-blue-600 flex gap-1 items-center text-lg font-bold' >
         Demo
         <AiOutlineLink size={30} />
       </a>

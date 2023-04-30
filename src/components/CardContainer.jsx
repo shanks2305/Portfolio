@@ -18,7 +18,7 @@ let data = [
     name: 'CoinKing',
     desc: 'Just a better way to manage your coins and get rich obviously. It provide you with all the information to be a billionaire.',
     tech: ['react', 'typescript', "coingecko-api"],
-    github: 'https://github.com/shanks2305/weather-app',
+    github: 'https://github.com/shanks2305/coinking',
     demo: 'https://shankey-coinking.netlify.app',
     img: img2,
     alignLeft: false
