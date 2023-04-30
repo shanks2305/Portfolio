@@ -8,14 +8,14 @@ import aws from "../assets/aws-icon.webp"
 
 const Hero = () => {
   return (
-    <header className='max-w-6xl mx-auto min-h-screen flex justify-center items-center p-4 lg:text-left text-center'>
+    <header className='max-w-6xl mx-auto min-h-screen flex justify-center items-center p-8 lg:text-left text-center'>
       <section className='grid  lg:grid-cols-12 gap-2' >
         <section className='col-span-6 lg:hidden flex justify-center' >
           <div className={`hero-img bg-user-img`} />
         </section>
         <section className='col-span-6 flex flex-col justify-center ' >
-          <h2 className='text-start text-6xl font-bold text-text' >Full-Stack Javascript</h2>
-          <h2 className='text-6xl font-bold text-text flex gap-4 items-center' >Developer
+          <h2 className='text-center text-3xl lg:text-6xl font-bold text-text' >Full-Stack Javascript</h2>
+          <h2 className='text-3xl lg:text-6xl font-bold text-text flex gap-4 justify-center items-center' >Developer
             <img src={hi} alt='hi' className='w-14 h-14' /></h2>
           <p className='mt-4 text-secondary text-lg' >
             Hi, I'm Shishir Bahuguna. A passionate Full-Stack Javascript Developer based in  Bengaluru, Karnataka. 📍

@@ -8,7 +8,7 @@ const Contact = () => {
       <div className='my-20' >
         <h2 className='text-xl font-bold text-blue-600 uppercase mb-4' >Contact</h2>
         <h3 className='text-3xl font-bold ' >Don't be shy! Hit me up! 👇</h3>
-        <div className='my-14 flex gap-24 text-xl' >
+        <div className='my-14 flex flex-col lg:flex-row gap-24 text-xl ' >
           <div className='flex gap-4 items-center' >
             <div className='bg-white shadow-2xl rounded-full p-4 col-span-2' >
               <FaMapMarked size={40} className='text-blue-600' />
@@ -24,7 +24,7 @@ const Contact = () => {
             </div>
             <a href='mailto:contactshishirbahugna@gmail.com' className='flex flex-col' >
               <span className='font-bold' >Mail</span>
-              <span className='text-secondary ' >contactshishirbahuguna@gmail.com</span>
+              <span className='text-secondary text-sm lg:text-lg' >contactshishirbahuguna@gmail.com</span>
             </a>
           </div>
         </div>
